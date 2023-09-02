@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Black Ice</title>
+
+    <link rel="icon" type="image/png" href="Imagenes\Logos\Logo 1 B.png">
+    <link rel="stylesheet" href="Style copy.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!--<header class="header">-->
+        <nav class="navbar">
+            <a href="Index.html" class="logo"><img src="Imagenes\Logos\Logo 2 B.png" alt="Logo de la empresa"></a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list-navbar">
+                    <li><a class="navbar-link" href="Index.html">Inicio</a></li>
+                    <li><a class="navbar-link" href="#nosotros">Nosotros</a></li>
+                    <li><a class="navbar-link" href="#paletas">Paletas</a></li>
+                    <li><a class="navbar-link" href="#contactanos">Contactanos</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!--</header>-->
+
+    <nav class="banner-container">
+        <img class="banner" src="Imagenes\Banner-1.jpg" alt="Banner">
+    </nav>
+
+    <!--<h1 class="titulo-principal">Black Ice Paletas y Helados Artesanales</h1>-->
+
+    <div class="nosotros" id="nosotros">
+        <div class="titulo-nosotros">
+            <h3>Black ICE</h3>
+            <h3>Black ICE</h3>
+        </div>
+        <p class="descripcion-nosotros">Black Ice Paletas y Helados Artesanales es una empresa de alimentos ubicada en
+            Pucallpa, Perú, dedicada a la elaboración de paletas y helados artesanales de alta calidad con sabores naturales
+            y auténticos. Nuestros productos son elaborados a mano con pulpa de fruta fresca y leche condensada, y ofrecemos
+            más de 50 combinaciones de sabores para satisfacer los gustos de nuestros clientes. Nos enorgullece mantener los
+            más altos estándares de calidad y seguridad en nuestros productos.</p>
+    </div>
+    <!--<div class="paletas-container">-->
+        <section class="paletas container">
+            <div class="swiper mySwiper" id="paletas">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#crema">
+                            <img src="Imagenes\Baner.jpg" alt="Paletas de crema">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#cheesecake">
+                            <img src="Imagenes\Baner 2.jpg" alt="Paletas de cheesecake">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#alcohol">
+                            <img src="Imagenes\Baner 3.jpg" alt="Cheesecake con Alcohol">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#crema">
+                            <img src="Imagenes\Baner.jpg" alt="Paletas de crema">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#cheesecake">
+                            <img src="Imagenes\Baner 2.jpg" alt="Paletas de cheesecake">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#alcohol">
+                            <img src="Imagenes\Baner 3.jpg" alt="Cheesecake con Alcohol">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--</div>-->
+    
+    <div class="catalogo-paletas" id="crema">
+        <h1>Paletas de Crema</h1>
+        <div class="navigation-buttons">
+            <button class="previous-button" id="left-button-crema">
+                <span class="label">«</span>
+            </button>
+            <button class="next-button" id="right-button-crema">
+                <span class="label">»</span>
+            </button>
+        </div>
+        <div class="catalogo-list">
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Fresa.jpg" alt="Fresa">
+                    <p class="paleta-description">Fresa rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Fresa-2.jpg" alt="Fresa">
+                    <p class="paleta-description">Fresa rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Maracuyá.jpg" alt="Maracuyá">
+                    <p class="paleta-description">Maracuyá rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Maracuyá-2.jpg" alt="Maracuyá">
+                    <p class="paleta-description">Maracuyá rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Lúcuma.jpg" alt="Lúcuma">
+                    <p class="paleta-description">Lúcuma rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Lúcuma-2.jpg" alt="Lúcuma">
+                    <p class="paleta-description">Lúcuma rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Mora.jpg" alt="Mora">
+                    <p class="paleta-description">Mora rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Mora-2.jpg" alt="Mora">
+                    <p class="paleta-description">Mora rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Mango.jpg" alt="Mango">
+                    <p class="paleta-description">Mango rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Mango-2.jpg" alt="Mango">
+                    <p class="paleta-description">Mango rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Acerola.jpg" alt="Acerola">
+                    <p class="paleta-description">Acerola rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Acerola-2.jpg" alt="Acerola">
+                    <p class="paleta-description">Acerola rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Camu camu.jpg" alt="Camu camu">
+                    <p class="paleta-description">Camu camu rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Camu camu-2.jpg" alt="Camu camu">
+                    <p class="paleta-description">Camu camu rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Frutos del bosque.jpg" alt="Frutos del bosque">
+                    <p class="paleta-description">Frutos del bosque rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Frutos del bosque-2.jpg" alt="Frutos del bosque">
+                    <p class="paleta-description">Frutos del bosque rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Aguaje.jpg" alt="Aguaje">
+                    <p class="paleta-description">Aguaje rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Aguaje-2.jpg" alt="Aguaje">
+                    <p class="paleta-description">Aguaje rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Coco.jpg" alt="Coco">
+                    <p class="paleta-description">Coco rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Coco-2.jpg" alt="Coco">
+                    <p class="paleta-description">Coco rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Chirimoya.jpg" alt="Chirimoya">
+                    <p class="paleta-description">Chirimoya rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Chirimoya-2.jpg" alt="Chirimoya">
+                    <p class="paleta-description">Chirimoya rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Copoazu.jpg" alt="Copoazu">
+                    <p class="paleta-description">Copoazu rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Copoazu-2.jpg" alt="Copoazu">
+                    <p class="paleta-description">Copoazu rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Ungurahui.jpg" alt="Ungurahui">
+                    <p class="paleta-description">Ungurahui rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Ungurahui-2.jpg" alt="Ungurahui">
+                    <p class="paleta-description">Ungurahui rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Azai.jpg" alt="Azaí">
+                    <p class="paleta-description">Azaí rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-crema" src="Imagenes\Paletas\Crema\Azai-2.jpg" alt="Azaí">
+                    <p class="paleta-description">Azaí rellena de leche condensada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="crema.js"></script>
+
+    <div class="catalogo-paletas" id="cheesecake">
+        <h1>Paletas de Cheesecake</h1>
+        <div class="navigation-buttons">
+            <button class="previous-button" id="left-button-cheesecake">
+                <span class="label">«</span>
+            </button>
+            <button class="next-button" id="right-button-cheesecake">
+                <span class="label">»</span>
+            </button>
+        </div>
+        <div class="catalogo-list">
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Oreo.jpg" alt="Oreo">
+                    <p class="paleta-description">Oreo con galleta de oreo</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Capuccino.jpg" alt="Capuccino">
+                    <p class="paleta-description">Capuccino con chispas de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Chocomenta.jpg" alt="Chocomenta">
+                    <p class="paleta-description">Chocolate con menta</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Volcán de chocolate.jpg" alt="Volcán de chocolate">
+                    <p class="paleta-description">Chocolate rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Chocomani" alt="Chocomani">
+                    <p class="paleta-description">Cocholate con maní</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Fresa.jpg" alt="Fresa">
+                    <p class="paleta-description">Fresa con trozos de fresa</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Mango.jpg" alt="Mango">
+                    <p class="paleta-description">Mango con trozos de mango</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Chapo.jpg" alt="Chapo">
+                    <p class="paleta-description">Chapo con plátano capirona</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Pie de limón.jpg" alt="Pie de limón">
+                    <p class="paleta-description">Pie de limón con galleta margarita</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Panetón.jpg" alt="Panetón">
+                    <p class="paleta-description">Panetón con frutas y pasas</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Ají charapita.jpg" alt="Ají charapita">
+                    <p class="paleta-description">Ají charapita rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Ají charapita-2.jpg" alt="Ají charapita">
+                    <p class="paleta-description">Ají charapita rellena de leche condensada</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Menta.jpg" alt="Menta">
+                    <p class="paleta-description">Menta rellena de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-cheesecake" src="Imagenes\Paletas\Cheesecake\Menta-2.jpg" alt="Menta">
+                    <p class="paleta-description">Menta rellena de leche condensada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cheesecake.js"></script>
+
+    <div class="catalogo-paletas" id="alcohol">
+        <h1>Cheesecake con Alcohol</h1>
+        <div class="navigation-buttons">
+            <button class="previous-button" id="left-button-alcohol">
+                <span class="label">«</span>
+            </button>
+            <button class="next-button" id="right-button-alcohol">
+                <span class="label">»</span>
+            </button>
+        </div>
+        <div class="catalogo-list">
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Baileys.jpg" alt="Baileys">
+                    <p class="paleta-description">Baileys con chispas de chocolate</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Cerveza.jpg" alt="Cerveza">
+                    <p class="paleta-description">Cerveza con maní</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Vino.jpg" alt="Vino">
+                    <p class="paleta-description">Vino con pasas</p>
+                </div>
+            </div>
+            <div class="paleta-item active">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Ron.jpg" alt="Ron">
+                    <p class="paleta-description">Ron con pasas</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Pisco.jpg" alt="Pisco">
+                    <p class="paleta-description">Pisco con cervezas</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Tequila.jpg" alt="Tequila">
+                    <p class="paleta-description">Tequila con cervezas</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Masato.jpg" alt="Masato">
+                    <p class="paleta-description">Masato rellena de Manjar</p>
+                </div>
+            </div>
+            <div class="paleta-item hidden">
+                <div class="paleta-container">
+                    <img class="paleta-alcohol" src="Imagenes\Paletas\Alcohol\Masato-2.jpg" alt="Masato">
+                    <p class="paleta-description">Masato rellena de leche condensada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="alcohol.js"></script>
+
+    <div id="contactanos">
+        <div class="container">
+            <div class="contacto-wrapper">
+                <div class="contacto-formulario">
+                    <h3>Contactanos</h3>
+                    <form action="procesar_formulario.php" method="post">
+                        <p style="grid-column: 1 / 3">
+                            <label for="name">Nombre completo</label>
+                            <!-- <input type="text" id="name" name="your-name" placeholder="Nombre completo" required minlength="3" maxlength="50"> -->
+                            <input type="text" id="name" name="your-name" required minlength="3" maxlength="50">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <!-- <input type="email" id="email" name="your-email" placeholder="Email" required> -->
+                            <input type="email" id="email" name="your-email" required>
+                        </p>
+                        <p>
+                            <label for="phone">Teléfono</label>
+                            <!-- <input type="tel" id="phone" name="celular" placeholder="Teléfono" pattern="[0-9]{3} - [0-9]{3} - [0-9]{3}" required> -->
+                            <input type="tel" id="phone" name="celular" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+                        </p>
+                        <p>
+                            <label for="city">Ciudad</label>
+                            <!-- <input type="text" id="city" name="ciudad" placeholder="Ciudad"> -->
+                            <input type="text" id="city" name="ciudad">
+                        </p>
+                        <p>
+                            <label for="asunto">Motivo de consulta</label>
+                            <select id="asunto" name="Asunto" required>
+                                <!-- <option value="">Seleccione una opción</option> -->
+                                <option value=""></option>
+                                <option value="Trabajar con nosotros">Trabajar con nosotros</option>
+                                <option value="Distribución">Distribución</option>
+                                <option value="Eventos">Eventos</option>
+                            </select>
+                        </p>
+                        <p style="grid-column: 1 / 3">
+                            <label for="message">Mensaje</label>
+                            <!-- <textarea id="message" name="your-message" placeholder="Mensaje" rows="3" required></textarea> -->
+                            <textarea id="message" name="your-message" rows="3" required></textarea>
+                        </p>
+                        <p style="grid-column: 1 / 3">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contacto-info">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av Amazonas 590 , Pucallpa, Peru </li>
+                        <li><i class="fas fa-phone"></i> 997 085 049 </li>
+                        <li><i class="fa-solid fa-at"></i> blackicepaletas@gmail.com </li>
+                    </ul>
+                    <p>Black Ice es una empresa ubicada en Pucallpa, en la selva del Perú, que se
+                        dedica a la elaboración de paletas y helados artesanales con pulpa de fruta fresca rellenas de majar blanco
+                        y leche condensada.</p>
+                    <p>BlackIce.com</p>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <img src="Imagenes\Logos\Logo 4 B.png" alt="Logo de la empresa">
+                </div>
+                <div class="footer-links">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#nosotros">Nuestra Empresa</a></li>
+                        <li><a href="#">Medios de Pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ubícanos</h4>
+                    <ul>
+                        <li><a href="#">Av Amazonas 590, Pucallpa, Peru</a></li>
+                        <li><a href="#">Malecón Pardo 110, Callao, Peru</a></li>
+                        <li><a href="#">Otra ubicacion, Provincia, Peru</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/BlackIcePucallpa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/black_ice_paletas" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.whatsapp.com/catalog/51974857847" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
